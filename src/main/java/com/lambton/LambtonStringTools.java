@@ -34,6 +34,8 @@ public class LambtonStringTools {
         int count = 0;
         int current = 0;
 
+        char[] fchar = new char[str.length()];
+
         
     }
 
