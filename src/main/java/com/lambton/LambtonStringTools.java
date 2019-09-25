@@ -28,14 +28,41 @@ public class LambtonStringTools {
         }
         return (initial.toUpperCase());
     }
-    public static char mostFrequent(String s)
+    public char[] mostFrequent (String str)
     {
-       char[] a=s.toCharArray();
-       for(int i=0;i<a.length;i++)
-       {
+        int temp = 0;
+        int count = 0;
+        int current = 0;
 
-       }
+        char[] fchar = new char[str.length()];
+
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+
+            for (int j = i + 1; j < str.length(); j++) {
+                char ch1 = str.charAt(j);
+
+                if (ch != ch1) {
+                    count++;
+                }
+            }
+
+            if (count > temp) {
+                temp = count;
+                fchar[current] = ch;
+                current++;
+            }
+        }
+        return fchar;
     }
 
-}
+
+    public static String replaceSubString(String s1,String s2, String s3)
+    {
+        int i = s3.indexOf(s1);
+       
+
+    }
+
+
 

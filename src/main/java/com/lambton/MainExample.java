@@ -10,5 +10,9 @@ public class MainExample
         l1.binaryToDecimal("1000");
 
         l1.initials("Ankita Jain anku");
+
+        l1.mostFrequent("hello");
+
+
     }
 }
