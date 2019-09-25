@@ -8,5 +8,7 @@ public class MainExample
         l1.reverse("Lambton");
 
         l1.binaryToDecimal("1000");
+
+        l1.initials("Ankita Jain anku");
     }
 }
