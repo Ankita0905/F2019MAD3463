@@ -1,6 +1,7 @@
 package com.lambton;
 
-public class LambtonStringTools {
+public class LambtonStringTools
+{
     public static String reverse(String s) {
         String revs = " ";
 
@@ -14,6 +15,7 @@ public class LambtonStringTools {
 
     public static int binaryToDecimal(String s) {
         int a = Integer.parseInt(s);
+        System.out.println(s);
         return a;
     }
 
@@ -26,8 +28,11 @@ public class LambtonStringTools {
             ini = parts[i].charAt(0);
             initial += ini;
         }
+        System.out.println(initial);
         return (initial.toUpperCase());
     }
+
+
     public static char[] mostFrequent (String str)
     {
         int temp = 0;
@@ -54,6 +59,7 @@ public class LambtonStringTools {
                 current++;
             }
         }
+        System.out.println(current);
         return fchar;
     }
 
@@ -61,13 +67,14 @@ public class LambtonStringTools {
     public static String replaceSubString(String s1,String s2, String s3)
     {
         int i = s3.indexOf(s1);
-        if (i < 0) {
+        if (i < 0)
+        {
             return s3;
         }
 
         String prevst = s3.substring(0, i);
         String afst  = s3.substring(i + s1.length());
-
+        System.out.println(prevst + s2 + afst);
         return prevst + s2 + afst;
     }
 
