@@ -13,6 +13,8 @@ public class MainExample
 
         l1.mostFrequent("hello");
 
+        l1.replaceSubString("the dog jumpes over the fence","the","that");
+
 
     }
 }

@@ -28,7 +28,7 @@ public class LambtonStringTools {
         }
         return (initial.toUpperCase());
     }
-    public char[] mostFrequent (String str)
+    public static char[] mostFrequent (String str)
     {
         int temp = 0;
         int count = 0;
