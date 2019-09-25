@@ -49,7 +49,10 @@ public class LambtonStringTools {
             }
 
             if (count > temp) {
-                
+                temp = count;
+                fchar[current] = ch;
+                current++;
+            }
         }
         return fchar;
     }
