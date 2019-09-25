@@ -18,7 +18,7 @@ public class LambtonStringTools {
     }
 
 
-    public String initials(String s) {
+    public static String initials(String s) {
         String initial = "";
         String[] parts = s.split(" ");
         char ini;
@@ -28,7 +28,14 @@ public class LambtonStringTools {
         }
         return (initial.toUpperCase());
     }
+    public static char mostFrequent(String s)
+    {
+       char[] a=s.toCharArray();
+       for(int i=0;i<a.length;i++)
+       {
+           
+       }
+    }
 
-    public 
 }
 
