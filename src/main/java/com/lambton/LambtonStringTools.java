@@ -34,26 +34,7 @@ public class LambtonStringTools {
         int count = 0;
         int current = 0;
 
-        char[] fchar = new char[str.length()];
-
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-
-            for (int j = i + 1; j < str.length(); j++) {
-                char ch1 = str.charAt(j);
-
-                if (ch != ch1) {
-                    count++;
-                }
-            }
-
-            if (count > temp) {
-                temp = count;
-                fchar[current] = ch;
-                current++;
-            }
-        }
-        return fchar;
+        
     }
 
 
