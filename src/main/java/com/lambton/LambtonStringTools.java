@@ -48,7 +48,8 @@ public class LambtonStringTools {
                 }
             }
 
-            
+            if (count > temp) {
+                
         }
         return fchar;
     }
