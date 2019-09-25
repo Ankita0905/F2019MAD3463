@@ -12,7 +12,7 @@ public  static String reverse(String s)
         String rev = new StringBuffer(words[i]).reverse().toString();
         revs = revs + rev;
     }
-  
+    System.out.println("Reverse String: " + revs);
 
     return s;
 
