@@ -6,5 +6,7 @@ public class MainExample
     {
         LambtonStringTools l1=new LambtonStringTools();
         l1.reverse("Lambton");
+
+        l1.binaryToDecimal("1000");
     }
 }

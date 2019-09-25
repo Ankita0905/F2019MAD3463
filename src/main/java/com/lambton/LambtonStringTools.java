@@ -14,7 +14,16 @@ public  static String reverse(String s)
 
     return s;
 }
+  public static int binaryToDecimal(String s)
+  {
+     int a=Integer.parseInt(s);
+     return a;
+  }
 
+    public static String initials(String s)
+    {
+        return s;
+    }
 
 }
 
